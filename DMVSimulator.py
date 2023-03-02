@@ -3,14 +3,14 @@ from time import sleep
 
 def main():
     print("Welcome to the DMV")
-    random = randint(1,200)
+    random = randint(1,100)
     print("Your DMV number is" , random, ". Please wait till your number is called")
     print("Please listen to your numbers everyone")
 
-    for i in range(random + 1, 201 + random):
+    for i in range(random + 1, 101 + random):
         sleep(0.5)
         if(i > 200):
-            print("Number", i - 200)
+            print("Number", i -100)
         else :
             print("Number", i)
     
