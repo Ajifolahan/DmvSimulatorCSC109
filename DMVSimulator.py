@@ -14,7 +14,7 @@ def main():
         else :
             print("Number", i)
     
-    print("You do not have the required paperwork")
+    print("You do not have the required paperwork, should've thought to check that before you came here, stupid")
 
 if __name__ == '__main__':
     main()
