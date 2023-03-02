@@ -1,11 +1,20 @@
-if __name__ == '__main__':
+from random import randint
+from time import sleep
 
-    import random
+def main():
     print("Welcome to the DMV")
-    random = random.randint(1,100)
+    random = randint(1,200)
+    print("Your DMV number is" , random, ". Please wait till your number is called")
+    print("Please listen to your numbers everyone")
 
-    for i in range(random, 101 + random):
-        if(i > 100):
-            print(i - 100)
+    for i in range(random + 1, 201 + random):
+        sleep(0.5)
+        if(i > 200):
+            print("Number", i - 200)
         else :
-            print(i)
+            print("Number", i)
+    
+    print("You do not have the required paperwork, should've thought to check that before you came here, stupid")
+
+if __name__ == '__main__':
+    main()
