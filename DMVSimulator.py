@@ -14,7 +14,11 @@ def main():
         else :
             print("Number", i)
     
-    print("You do not have the required paperwork, should've thought to check that before you came here, stupid")
+    random2 = randint(1,100)
+    if random2 == 1: 
+        print("Goodjob, You have all the required paperwork")
+    else :
+        print("You do not have the required paperwork, should've thought to check that before you came here, stupid")
 
 if __name__ == '__main__':
     main()
