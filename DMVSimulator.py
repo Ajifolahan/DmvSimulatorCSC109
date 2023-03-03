@@ -10,7 +10,7 @@ def main():
     for i in range(random + 1, 201 + random):
         sleep(0.5)
         if(i > 200):
-            print("Number", i -200)
+            print("Number", i - 200)
         else :
             print("Number", i)
     
